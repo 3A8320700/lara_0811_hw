@@ -5,7 +5,6 @@ class NewsController extends Controller
 {
     public function index()
     {
-        return view("news.blade.php");
         return view("news");
     }
 }
